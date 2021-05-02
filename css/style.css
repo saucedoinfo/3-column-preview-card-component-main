@@ -22,6 +22,8 @@
 
 button .card-1 {
 	color: var(--corange);
+	font-family: 'Lexend Deca', sans-serif ;
+	font-weight: 700;
 }
 
 .card-2 {
@@ -29,8 +31,13 @@ button .card-1 {
 	border-radius: 0 0 0 0;
 }
 
-button .card-2 {
-	color: var(--cdarkcyan);
+.card-1 button  {
+	color: var(--corange);
+	
+}
+
+.btn-card {
+	background-color: var(--very-light-gray);
 }
 
 .card-3 {
@@ -38,7 +45,7 @@ button .card-2 {
 	border-radius: 0 5px 5px 0;
 }
 
-button .card-3 {
+.btn-primary {
 	color: var(--cverydarkcyan);
 }
 
