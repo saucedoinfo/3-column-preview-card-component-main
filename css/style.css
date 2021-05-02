@@ -4,11 +4,16 @@
 	--corange: hsl(31, 77%, 52%);
 	--cdarkcyan: hsl(184, 100%, 22%);
 	--cverydarkcyan: hsl(179, 100%, 13%);
+	--transparent-white: hsla(0, 0%, 100%, 0.75);
+	--very-light-gray: hsl(0, 0%, 95%);
+
 }
 
-/* font */
-@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display&family=Lexend+Deca&display=swap");
+.card {
+	max-width: 310px;
+	min-height: 500px;
+	color: var(--cwhite);
+}
 
 .card-1 {
 	background-color: var(--corange);
@@ -45,10 +50,23 @@ button .card-3 {
 	color: hsl(228, 45%, 44%);
 }
 
-.card {
-	max-width: 310px;
-}
 
 .card-img-top {
-	width: 75px;
+	width: 75px ;
+	font-weight: 400;
+}
+
+.card-title {
+	font-family: 'Big Shoulders Display', cursive;
+	font-weight: 700;
+	font-size: 40px;
+	text-transform: uppercase;
+	color: var(--very-light-gray);
+}
+
+.card-text {
+	font-family: 'Lexend Deca', sans-serif ;
+	font-weight: 400 ;
+	font-size: 15px;
+	color: var(--transparent-white);
 }
